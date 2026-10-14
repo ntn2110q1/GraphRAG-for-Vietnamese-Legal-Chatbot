@@ -1,0 +1,1 @@
+"""Legal GraphRAG application backend."""

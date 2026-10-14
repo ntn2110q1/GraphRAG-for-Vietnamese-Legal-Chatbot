@@ -1,0 +1,39 @@
+[data-testid="stMain"] .stButton button[data-testid="stBaseButton-secondary"],
+[data-testid="stMain"] .stDownloadButton button[data-testid="stBaseButton-secondary"] {
+  color: var(--text) !important;
+  background: var(--surface) !important;
+  border-color: var(--border) !important;
+}
+[data-testid="stMain"] .stButton button[data-testid="stBaseButton-secondary"] *,
+[data-testid="stMain"] .stDownloadButton button[data-testid="stBaseButton-secondary"] * {
+  color: var(--text) !important;
+}
+[data-testid="stMain"] [data-testid="stChatInput"] textarea,
+[data-testid="stMain"] [data-testid="stTextInputField"],
+[data-testid="stMain"] [data-testid="stTextArea"] textarea {
+  color: var(--text) !important;
+  background: var(--surface) !important;
+}
+[data-testid="stMain"] [data-testid="stChatInput"] textarea::placeholder,
+[data-testid="stMain"] [data-testid="stTextInputField"]::placeholder,
+[data-testid="stMain"] [data-testid="stTextArea"] textarea::placeholder {
+  color: var(--muted) !important;
+  opacity: 1;
+}
+[data-testid="stSidebar"] [data-testid="stExpander"] details,
+[data-testid="stSidebar"] [data-testid="stExpander"] summary {
+  color: #EAF0FB !important;
+  background: #192943 !important;
+}
+[data-testid="stSidebar"] [data-testid="stExpander"] summary p { color: #EAF0FB !important; }
+[data-testid="stSidebar"] [data-testid="stTextInputRootElement"],
+[data-testid="stSidebar"] .react-aria-ComboBox [role="group"] {
+  background: #14243C !important;
+  border-color: #3A4C68 !important;
+}
+[data-testid="stSidebar"] [data-testid="stTextInputField"],
+[data-testid="stSidebar"] .react-aria-ComboBox input {
+  color: #EAF0FB !important;
+  background: transparent !important;
+}
+[data-testid="stSidebar"] .react-aria-ComboBox button { color: #EAF0FB !important; }
