@@ -1,0 +1,13 @@
+# Optional dense vector retrieval. Configure LEGAL_EMBEDDING_MODEL before use.
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# Optional QLoRA training. Linux/WSL with a supported NVIDIA CUDA GPU is recommended;
+# bitsandbytes is not supported on every Windows/Python combination.
+torch>=2.3
+transformers>=4.45
+accelerate>=1.0
+datasets>=3.0
+peft>=0.13
+trl>=0.11
+bitsandbytes>=0.44; platform_system != "Windows"
