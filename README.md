@@ -64,7 +64,7 @@ Chạy unit tests bằng:
 
 ## QLoRA và giới hạn phần cứng
 
-Máy đã dùng để chạy ứng dụng có NVIDIA GeForce GTX 750 Ti với 4 GB VRAM. Ollama và Qwen2.5 3B Instruct đã được cài để sinh câu trả lời tại máy; mỗi câu có thể mất vài giây đến vài chục giây. Đây là model nhỏ nên vẫn cần đối chiếu câu trả lời với đoạn trích nguồn. Script QLoRA yêu cầu GPU CUDA tương thích (compute capability từ 7.0) và tối thiểu 16 GB VRAM cho cấu hình Qwen3-8B; GTX 750 Ti không đáp ứng. Dùng máy có GPU phù hợp để train. Training loss không phải thước đo độ chính xác pháp luật.
+Máy đã dùng để chạy ứng dụng có NVIDIA RTX 3060 với 6 GB VRAM. Ollama và Qwen2.5 3B Instruct đã được cài để sinh câu trả lời tại máy; mỗi câu có thể mất vài giây đến vài chục giây. Đây là model nhỏ nên vẫn cần đối chiếu câu trả lời với đoạn trích nguồn. Script QLoRA yêu cầu GPU CUDA tương thích (compute capability từ 7.0) và tối thiểu 16 GB VRAM cho cấu hình Qwen3-8B; GTX 750 Ti không đáp ứng. Dùng máy có GPU phù hợp để train. Training loss không phải thước đo độ chính xác pháp luật.
 
 ## Kiến trúc
 
